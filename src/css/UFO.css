@@ -1,0 +1,18 @@
+
+.img-ufo-1 {
+    position: absolute;
+    top: 38px;
+    left: 50%;
+    margin-left: -45px;
+    width: 118px;
+    height: 90px;
+}
+
+.img-ufo-2 {
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    margin-left: 420px;
+    width: 60px;
+    height: 45px;
+}

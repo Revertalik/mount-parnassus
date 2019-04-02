@@ -1,0 +1,70 @@
+main {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    margin-top: 20px;
+}
+
+.form-col-2 {
+    margin-left: 15px;
+    width: 380px;
+}
+
+.form-col p {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.form-group-rbl label {
+    margin-right: 5px;
+}
+
+.form-group,
+.form-group-rbl,
+.form-group-chbl {
+    height: 45px;
+}
+
+.form-group label,
+.form-group-rbl span,
+.form-group-chbl span {
+    display: inline-block;
+    margin-right: 15px;
+    min-width: 93px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group textarea {
+    width: 210px;
+}
+
+.form-group-rbl,
+.form-group-chbl {
+    width: 250px;
+}
+
+.form-block {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border: 1px solid #00a1b3;
+    border-radius: 3px;
+    background-color: #b5d5dd;
+}
+
+main form .button {
+    margin-top: 10px;
+    width: 250px;
+}

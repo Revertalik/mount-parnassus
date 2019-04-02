@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--main-color);
+    font-family: Tahoma, sans-serif;
+    background: url("../img/mountain.jpg") no-repeat;
+    background-size: cover;
+}
+
+* { box-sizing: border-box; }
+
+.clear { clear: both; }
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 930px;
+}
+
+.button {
+    display: block;
+    padding: 8px;
+    color: var(--main-color);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #00a1b3;
+    background: linear-gradient(#fdab5a, #b54906);
+}
+
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+}
+
+.list-unstyled li {
+    list-style: none;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.block-center {
+    margin-right: auto;
+    margin-left: auto;
+}

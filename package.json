@@ -1,0 +1,24 @@
+{
+  "name": "mount-parnassus",
+  "version": "1.0.0",
+  "description": "Final task HTML+CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riadonova/mount-parnassus.git"
+  },
+  "author": "Victoria Spiridonova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riadonova/mount-parnassus/issues"
+  },
+  "homepage": "https://github.com/riadonova/mount-parnassus#readme",
+  "devDependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.1.0"
+  }
+}
