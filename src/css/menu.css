@@ -7,7 +7,7 @@ menu {
 
 menu a {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 5px;
     padding: 25px 0;
     color: #3bbac2;
     font-size: 24px;
@@ -17,4 +17,10 @@ menu a {
 menu li:hover a {
     color: #fdd087;
     border-top: 1px solid #fdd087;
+}
+
+@media screen and (max-width: 650px) {
+    menu {
+        display: block;
+    }
 }

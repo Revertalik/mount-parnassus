@@ -1,15 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    color: var(--main-color);
+    color: #fff;
     font-family: Tahoma, sans-serif;
     background: url("../img/mountain.jpg") no-repeat;
     background-size: cover;
 }
 
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
-.clear { clear: both; }
+.clear {
+    clear: both;
+}
 
 .container {
     margin-right: auto;
@@ -20,7 +24,7 @@ body {
 .button {
     display: block;
     padding: 8px;
-    color: var(--main-color);
+    color: #fff;
     font-size: 20px;
     text-align: center;
     text-decoration: none;

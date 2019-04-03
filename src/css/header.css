@@ -10,15 +10,15 @@ header {
 .block-summary h1 {
     margin-top: 20px;
     margin-bottom: 25px;
-    color: var(--main-color);
+    color: #fff;
     font-size: 48px;
     font-weight: normal;
 }
 
 .block-summary p {
     padding-left: 2px;
-    color: var(--secondary-color);
-    font-size: var(--text);
+    color: #83a6ac;
+    font-size: 14px;
 }
 
 .block-specification {
@@ -35,11 +35,20 @@ header {
 }
 
 .block-specification li {
-    color: var(--main-color);
+    color: #fff;
     font-size: 18px;
     line-height: 30px;
 }
 
 li span {
     color: #b1d0dc;
+}
+
+@media (max-width: 700px) {
+    .block-summary,
+    .block-specification {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+    }
 }

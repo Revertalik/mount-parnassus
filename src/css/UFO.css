@@ -6,6 +6,10 @@
     margin-left: -45px;
     width: 118px;
     height: 90px;
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
 }
 
 .img-ufo-2 {
@@ -15,4 +19,30 @@
     margin-left: 420px;
     width: 60px;
     height: 45px;
+    animation-name: fly;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes fly {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 10px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .img-ufo-1,
+    .img-ufo-2 {
+        display: none;
+    }
 }

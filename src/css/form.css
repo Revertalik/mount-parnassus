@@ -67,4 +67,19 @@ h2 {
 main form .button {
     margin-top: 10px;
     width: 250px;
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-group textarea {
+        width: 337px;
+    }
+
+    main form .button {
+        margin-top: 20px;
+    }
 }
