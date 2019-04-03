@@ -12,6 +12,7 @@ menu a {
     color: #3bbac2;
     font-size: 24px;
     text-decoration: none;
+    border-top: 1px solid transparent;
 }
 
 menu li:hover a {
