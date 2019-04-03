@@ -4,6 +4,7 @@
   "description": "Final task HTML+CSS",
   "main": "index.js",
   "scripts": {
+    "build": "gulp html css img",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/riadonova/mount-parnassus#readme",
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-import": "^12.0.1",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^2.1.0"
